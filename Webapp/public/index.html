@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeBase</title>
+    
+    <!-- depedencies -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    
+       
+        <!--  -->
+
+    <style>
+        .bd-placeholder-img {
+          font-size: 1.125rem;
+          text-anchor: middle;
+          -webkit-user-select: none;
+          -moz-user-select: none;
+          user-select: none;
+        }
+  
+        @media (min-width: 768px) {
+          .bd-placeholder-img-lg {
+            font-size: 3.5rem;
+          }
+        }
+      </style>
+  
+      
+      <!-- Custom styles for this template -->
+        <link href="./css/login.css" rel="stylesheet">
+      <!--  -->
+</head>
+<body class="text-center">
+    <!-- Login -->
+    <main class="form-signin border">
+       
+          <img class="mb-4" src="./asset/toppng.com-design-for-logo-356x330.png" alt="logo" width="72" height="57">
+          
+          <div class="form-floating mb-3">
+            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+            <label for="floatingInput">Email address</label>
+          </div>
+          
+          <div class="form-floating">
+            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+            <label for="floatingPassword">Password</label>
+          </div>
+      
+          <!-- <div class="checkbox mb-3 text-start ms-2">
+            <label>
+              <input type="checkbox" value="show-password"> Show Password
+            </label>
+          </div> -->
+
+          <div class=" mb-3 text-start ms-1">
+            <label>
+                <a href="./forgetpass.html">Forgot Password ?</a>
+            </label>
+          </div>
+          <!-- <div class=" mb-3 ms-1">
+            <label>
+                Don't have account ? <a href="./signup.html">Signup</a>
+            </label>
+          </div> -->
+          <button class="w-100 btn btn-lg btn-primary mb-3" id="signInBtn" type="submit">Sign in</button>
+        
+      </main>
+    <!--  -->
+    <!-- <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.9/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.6.9/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+          apiKey: "AIzaSyD7GohVyaiY1ZIiN1GC_BxbR3QRgxXB5WI",
+          authDomain: "rfidadmin-5d6ca.firebaseapp.com",
+          databaseURL: "https://rfidadmin-5d6ca-default-rtdb.firebaseio.com",
+          projectId: "rfidadmin-5d6ca",
+          storageBucket: "rfidadmin-5d6ca.appspot.com",
+          messagingSenderId: "706414298478",
+          appId: "1:706414298478:web:3573a0b0e3fe0021f0ed7f",
+          measurementId: "G-GCF95SFEB6"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+
+        export default app;
+      </script> -->
+      <script type="module" src="./js/firebaseConfig.js"></script>
+      <script type="module" src="./js/login.js"></script>
+</body>
+</html>
