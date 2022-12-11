@@ -1,2 +1,2 @@
-#define SECRET_SSID "HOME"
-#define SECRET_PASS "patil7874"
+#define SECRET_SSID " " // Wifi Network Name
+#define SECRET_PASS " " // Wifi Network Password
