@@ -16,7 +16,7 @@ unsigned long previousMillis = 0;
 char ssid[] = SECRET_SSID;        // your network SSID (name)
 char pass[] = SECRET_PASS;    // your network password (use for WPA, or use as key for WEP)
 
-char serverAddress[] = "iot-7874.herokuapp.com";  // server address || localhost
+char serverAddress[] = " ";  // server address || localhost
 int port = 80;
 
 int status = WL_IDLE_STATUS;
